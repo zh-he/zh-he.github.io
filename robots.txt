@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://zh-he.github.io/sitemap.xml
