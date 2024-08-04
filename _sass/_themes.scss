@@ -49,9 +49,9 @@
     display: none;
   }
 
-  // .repo-img-light {
-  //   display: block;
-  // }
+  .repo-img-light {
+    display: block;
+  }
   // .repo-img-dark {
   //   display: none;
   // }
@@ -102,9 +102,9 @@
 //   .repo-img-light {
 //     display: none;
 //   }
-//   .repo-img-dark {
-//     display: block;
-//   }
+//   // .repo-img-dark {
+//   //   display: block;
+//   // }
 // }
 
 // html[data-theme-setting="dark"] {
@@ -128,18 +128,18 @@
 //   }
 // }
 
-// html[data-theme-setting="light"] {
-//   #light-toggle-system {
-//     display: none;
-//   }
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
 
-//   // #light-toggle-dark {
-//   //   display: none;
-//   // }
+  #light-toggle-dark {
+    display: none;
+  }
 
-//   #light-toggle-light {
-//     padding-left: 10px;
-//     padding-top: 12px;
-//     display: block;
-//   }
-// }
+  #light-toggle-light {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+}
