@@ -24,6 +24,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Welcome to my github.io personal homepage.My name is Zhihai He. I am currently a postgraduate student at East China University of Science and Technology, majoring in electronic information. I graduated from Xiangtan University with a bachelor's degree in automation.
 
-My research interests are mainly in AI for science and machine learning.
+My research interests are mainly in  **AI for science and machine learning**.
 
 Unfortunately, I don't have any articles published yet, but I'm sure there will be some valuable work in the published column in the future.
