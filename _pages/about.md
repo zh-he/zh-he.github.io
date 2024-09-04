@@ -11,7 +11,7 @@ profile:
   width: 400px
 
 news: true # includes a list of news items
-awards: true
+awards: true # includes a list of awards
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.-->
 
-Welcome to my github.io personal homepage.My name is Zhihai He. 
+Welcome to my github.io personal homepage.My name is Zhihai He，which means smart in Chinese.
 
 I am currently a postgraduate student at [East China University of Science and Technology](https://www.ecust.edu.cn/main.htm), majoring in electronic information. I graduated from [Xiangtan University](https://www.xtu.edu.cn/) with a bachelor's degree in automation in 2022.
 

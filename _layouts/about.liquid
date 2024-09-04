@@ -52,6 +52,14 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+    
+    <!-- Awards -->
+    {% if page.awards %}
+    <h2>
+      <a href="{{ '/awards/' | relative_url }}" style="color: inherit">awards</a>
+    </h2>
+    {% include awards.liquid %}
+    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}

@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-8-4
+date: 2024-09-04
 inline: true
-related_posts: falseI
+related_posts: false
 ---
 
-I am participating in a project to bridge the gap between DBLP and CCF Recommended List.
+I signed up for the 14th APMCM Asia-Pacific Undergraduate Mathematical Modeling Competition in 2024.I hope my partner and I can achieve good results.
 

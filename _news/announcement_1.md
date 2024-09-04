@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2024-8-4
+date: 2024-08-04
 inline: true
-related_posts: false
+related_posts: falseI
 ---
 
-My pages are created.
+I am participating in a project to bridge the gap between DBLP and CCF Recommended List.
+
