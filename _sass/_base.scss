@@ -27,6 +27,7 @@ table {
   td,
   th {
     font-size: 1rem;
+    padding: 1px 1rem 1px 0;
   }
 
   th {
@@ -71,7 +72,10 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-    p {
+    em,
+    li,
+    p,
+    strong {
       color: var(--global-tip-block-text);
     }
 
@@ -89,7 +93,10 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-    p {
+    em,
+    li,
+    p,
+    strong {
       color: var(--global-warning-block-text);
     }
 
@@ -107,7 +114,10 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-    p {
+    em,
+    li,
+    p,
+    strong {
       color: var(--global-danger-block-text);
     }
 
@@ -166,6 +176,10 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    .card-title {
+      font-size: 16px;
+    }
+    
   }
 
   .card-body {
@@ -185,6 +199,11 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  img {
+    width: 65%;  /* This makes the image responsive */
+    max-width: 200px;  /* This limits the image to a maximum of 400 pixels */
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -197,17 +216,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
-}
-
-.profile.float-left {
-  margin-right: 1rem;
-}
-
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 30%; /* Adjusts the profile width on larger screens */
+  
+    img {
+      width: 65%;
+      max-width: 200px; /* Optionally, adjust the max width on larger screens */
+    }
 
     .address {
       p {
@@ -216,6 +232,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
 
 .post-description {
   margin-bottom: 2rem;
@@ -621,6 +638,24 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      height: 100%;
+    }
+    .card-title {
+      font-size: 16px;
+    }
+    
+    /* 大屏幕上更大的字号 */
+    @media (min-width: 768px) {
+      .card-title {
+        font-size: 18px;
+      }
+    }
+    
+    /* 小屏幕上更小的字号 */
+    @media (max-width: 576px) {
+      .card-title {
+        font-size: 14px;
+      }
     }
   }
 
@@ -1149,7 +1184,8 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
-.newsletter-form-input {
+.newsletter-form-input,
+.bibsearch-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
   border: 1px solid var(--global-newsletter-text-color);
@@ -1286,4 +1322,10 @@ ninja-keys::part(ninja-input-wrapper) {
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
+}
+
+// highlight-search-term
+::highlight(search) {
+  background-color: var(--global-theme-color);
+  color: var(--global-text-color);
 }
