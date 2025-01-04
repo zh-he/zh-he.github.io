@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-07-19
+date: 2024-12-13
 related_posts: false
 ---
-2024 MaTi Cup Undergraduate Track National Competition Bronze Medal.
+2024 East China University of Science and Technology Third Class Academic Scholarship.

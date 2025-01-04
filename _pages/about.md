@@ -24,6 +24,6 @@ Welcome to my github.io personal homepage.My name is Zhihai He，which means sma
 
 I am currently a postgraduate student at [East China University of Science and Technology](https://www.ecust.edu.cn/main.htm), majoring in electronic information. I graduated from [Xiangtan University](https://www.xtu.edu.cn/) with a bachelor's degree in automation in 2022.
 
-My research interests are mainly in  **AI  and machine learning**.
+My research interests are mainly in  **AI**.
 
 Unfortunately, I don't have any articles published yet, but I'm sure there will be some valuable work in the published column in the future.

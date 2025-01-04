@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-08-04
+date: 2024-10-13
 inline: true
 related_posts: falseI
 ---
 
-I am participating in a project to bridge the gap between DBLP and CCF Recommended List.
+The project **[CCF_Rec_List](https://github.com/hegongshan/CCF_Rec_List)** has been finished.
 
